@@ -20,4 +20,20 @@ module Service
       end
     end
   end
+
+  module Soundcloud
+    class << self
+      def do_music
+        Service.do_request('soundcloud')
+      end
+    end
+  end
+
+  module Youtube
+    class << self
+      def do_video
+        Service.do_request('youtube')
+      end
+    end
+  end
 end
