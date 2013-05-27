@@ -1,4 +1,5 @@
 require_relative 'service'
+require_relative 'api_throttler/client'
 
 module ApiThrottler
   class << self
