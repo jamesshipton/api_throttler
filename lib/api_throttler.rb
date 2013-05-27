@@ -1,3 +1,5 @@
+require_relative 'service'
+
 module ApiThrottler
   class << self
     def get(api_call)
