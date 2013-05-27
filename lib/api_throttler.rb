@@ -2,6 +2,7 @@ require_relative 'service'
 require_relative 'api_throttler/client'
 require_relative 'api_throttler/queue'
 require_relative 'api_throttler/kv_store'
+require_relative 'api_throttler/rate'
 
 module ApiThrottler
   class << self
