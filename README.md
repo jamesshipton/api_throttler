@@ -19,6 +19,6 @@ I exist so that you can make api calls for multiple services without ever breaki
     rspec
 
 
-#### HOW TO RUN THROW A SELECTION OF RANDOMLY TIMED API CALLS AT ME
+#### HOW TO THROW A SELECTION OF RANDOMLY TIMED API CALLS AT ME
 
     rake
